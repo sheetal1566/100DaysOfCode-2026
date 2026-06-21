@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 #define STADIUMS 3
 #define MAX_GOALS 100
@@ -16,7 +17,7 @@ void addGoalToStadium(int stadium, int minute, int playerID) {
     playerGoals[playerID]++;
     goalCount[stadium]++;
 }
-
+*/
 void addGoalToStadium2(int minute, int playerID) {
     if (goalCount[2] >= MAX_GOALS) {
         printf("Stadium 2 is full\n");
